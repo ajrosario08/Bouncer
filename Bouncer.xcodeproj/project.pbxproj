@@ -14,6 +14,7 @@
 		92512F8A1C065B30005A2A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92512F881C065B30005A2A7B /* LaunchScreen.storyboard */; };
 		92512F951C065B30005A2A7B /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92512F941C065B30005A2A7B /* BouncerTests.swift */; };
 		92512FA01C065B30005A2A7B /* BouncerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92512F9F1C065B30005A2A7B /* BouncerUITests.swift */; };
+		92512FAE1C065B79005A2A7B /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92512FAD1C065B79005A2A7B /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		92512F9B1C065B30005A2A7B /* BouncerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92512F9F1C065B30005A2A7B /* BouncerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerUITests.swift; sourceTree = "<group>"; };
 		92512FA11C065B30005A2A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92512FAD1C065B79005A2A7B /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				92512F7F1C065B30005A2A7B /* AppDelegate.swift */,
 				92512F811C065B30005A2A7B /* ViewController.swift */,
 				92512F831C065B30005A2A7B /* Main.storyboard */,
+				92512FAD1C065B79005A2A7B /* BouncerBehavior.swift */,
 				92512F861C065B30005A2A7B /* Assets.xcassets */,
 				92512F881C065B30005A2A7B /* LaunchScreen.storyboard */,
 				92512F8B1C065B30005A2A7B /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				92512F821C065B30005A2A7B /* ViewController.swift in Sources */,
 				92512F801C065B30005A2A7B /* AppDelegate.swift in Sources */,
+				92512FAE1C065B79005A2A7B /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
